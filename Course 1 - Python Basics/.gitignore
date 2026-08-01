@@ -1,5 +1,2 @@
 # Ignore all temporary MS Word doc and docx files, starting with '~'
 ~*.doc*
-
-# to temporarily ignore the file below:
-Python online courses and links to files to download.txt
