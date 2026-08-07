@@ -1,0 +1,15 @@
+# Question no 5:
+# Provided is a list of data about a store’s inventory where each item in the list 
+# represents the name of an item, how much is in stock, and how much it costs. 
+# Print out each item in the list with the same formatting, 
+# using the .format method (not string concatenation). 
+# For example, the first print statment should read 
+#      The store has 12 shoes, each for 29.99 USD.
+
+inventory = ["shoes, 12, 29.99", "shirts, 20, 9.99", "sweatpants, 25, 15.00", "scarves, 13, 7.75"]
+for item_info in inventory:
+    item_info_list = item_info.split(',')
+    print('The store has{} {}, each for{} USD.'.format(item_info_list[1], item_info_list[0], item_info_list[2]))
+
+# Even though this code give the correct output, it depends on a single blank space after the comma for each list item.
+# An improved version, ver.02, removes the spaces for each item on item_info_list.
