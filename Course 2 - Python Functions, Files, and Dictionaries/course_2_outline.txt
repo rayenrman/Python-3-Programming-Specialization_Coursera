@@ -1,0 +1,9 @@
+Course 2 - Python Functions, Files, and Dictionaries
+    Module 1 - Files and CSV Output
+    Module 2 - Dictionaries and Dictionary Accumulation
+    Module 3 - Functions and Tuples
+    Module 4 - More Iteration and Advanced Functions
+    Module 5 - Sorting
+Final Course Project
+    Project - Part 1: Sentiment Classifier
+    Graded Assignment: Project - Part 2: Sentiment Analysis
